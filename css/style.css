@@ -1,0 +1,166 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*******************************************************
+*********************** Main CSS **********************
+*******************************************************/
+
+body{
+	background: #e2e2e2;
+	font-family: 'Montserrat', sans-serif !important;
+	color: #555555;
+	font-weight: bold;
+}
+
+#card{
+	width: 675px;
+	height: 982px;
+	background: #fff;
+	margin: 50px auto;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.03), 0 3px 1px -2px rgba(0, 0, 0, 0.03), 0 1px 5px 0 rgba(0, 0, 0, 0.03);
+	display: block;
+	box-sizing:  border-box;
+}
+
+#head{
+	height: 269px;
+	display: flex;
+	padding: 70px 47px 0 4px;
+}
+
+.logo{
+	margin: 0 0 0 75px;
+	width: 70%;
+}
+
+.logo h3{
+	margin: 0 0 10px 5px;
+	font-weight: 600;
+}
+
+.qr{
+
+	width: 30%;
+}
+
+.qr img{
+	width: 180px;
+	margin-top: 10px;
+}
+
+.logo{
+}
+
+#author{
+	text-align: center;
+}
+
+#author img{
+	border-radius: 50%;
+	width: 151px;
+	height: 151px;
+}
+
+#author h1{
+	font-size: 41px;
+	color: #e34220;
+	margin: 34px 0 18px 0;
+	font-weight: bolder;
+}
+
+#author h2{
+	font-size: 17px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+#author hr{
+	background: #e34220;
+	width: 35px;
+	height: 2px;
+	margin-top: 23px;
+	border:  none;
+	outline:  none;
+}
+
+#author #social{
+	margin-top: 40px;
+}
+
+#social img{
+	width: 32px;
+	height: 32px;
+}
+
+#social span{
+	padding: 8px 0 0 12px;
+}
+
+#social li{
+	margin-right: 40px;
+	display: inline-flex;
+}
+
+#website{
+	background: #e34220;
+	color: #fff;
+	padding: 17px;
+	letter-spacing: 2px;
+	margin: 45px 0 45px 0;
+}
+
+address, #website {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+address{
+	font-size: 12px;
+	line-height: 25px;
+}
